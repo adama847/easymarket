@@ -2,7 +2,7 @@ import img1 from "../assets/HubDakar.png";
 import img2 from "../assets/Kpc.png";
 import img3 from "../assets/Mvp.png";
 import img4 from "../assets/volkyno.png";
-import img5 from "../assets/OFII.png";
+import img5 from "../assets/Ofii.png";
 import img6 from "../assets/PP.png";
 
 const partners = [
