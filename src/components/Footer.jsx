@@ -28,7 +28,7 @@ const Footer = () => {
             <a href="/" className="text-2xl font-bold tracking-tight text-white">
               Easy<span className="font-extrabold">Market</span>
             </a>
-            <p className="text-white mt-5 text-sm leading-relaxed max-w-xs mx-auto md:mx-0">
+            <p className="text-white mt-5 font-bold text-sm leading-relaxed max-w-xs mx-auto md:mx-0">
               Obtenez un outil de gestion et/ou un site e-commerce en un temps record pour booster votre business.
             </p>
           </div>
@@ -41,7 +41,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <a 
                     href={link.href} 
-                    className="text-white hover:text-white text-sm transition-all hover:pl-1"
+                    className="text-white hover:text-white text-sm transition-all font-bold hover:pl-1"
                   >
                     {link.name}
                   </a>
@@ -70,8 +70,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t border-white py-8 text-center">
-        <p className="text-white text-xs tracking-widest uppercase">
+      <div className=" py-8 justify-center flex flex-col items-center text-center">
+        <hr className='mb-2 bg-white w-100 text-white lg:w-300' />
+        <p className="text-white text-xs  tracking-widest uppercase">
           © 2026 <span className="font-bold text-white">EasyMarket</span>. Tous droits réservés.
         </p>
       </div>
