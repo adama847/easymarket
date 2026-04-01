@@ -5,7 +5,7 @@ const Navbar = () => {
   const navLinkStyle = "text-sm font-medium text-foreground/80 hover:text-primary transition-colors";
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur shadow-sm border-b border-border">
+    <nav className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur shadow-sm border-b">
       <div className="container mx-auto flex items-center justify-between h-20 px-6">
         
         {/* LOGO SECTION */}

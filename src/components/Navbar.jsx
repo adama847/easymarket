@@ -61,7 +61,7 @@ const Navbar = () => {
 
       {/* MENU MOBILE */}
       {isOpen && (
-        <ul className="lg:hidden flex flex-col gap-4 px-6 pb-4 bg-white border-t">
+        <ul className="lg:hidden flex flex-col gap-4 px-6 pb-4 bg-white border-t border-amber-50">
           <li><a href="#fonctionnalites" className={navLinkStyle}>Fonctionnalités</a></li>
           <li><a href="#pricing" className={navLinkStyle}>Pricing</a></li>
           <li><a href="#demo" className={navLinkStyle}>Démo</a></li>
